@@ -3,7 +3,6 @@ package main
 import (
 	"fmt"
 )
-
 //структура хьюман
 type Human struct {
 	age     int

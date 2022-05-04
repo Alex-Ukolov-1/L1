@@ -9,6 +9,7 @@ import (
 //задать кол-во воркеров
 const N int = 2
 
+
 //функция постоянная запись данных в канал
 func PostInChannel(c chan interface{}, t <-chan time.Time) {
 	for {
